@@ -1,0 +1,5 @@
+language: French
+countries: fr
+
+"Hello, World!" = "Bonjour, Monde !"
+"It rolls,\nmy chicken?" = "Ça roule,\nma poule ?"
