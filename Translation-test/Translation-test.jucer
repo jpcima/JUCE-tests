@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Vr5RWs" name="Translation-test" projectType="guiapp" jucerVersion="5.3.2">
+  <MAINGROUP id="FkiENM" name="Translation-test">
+    <GROUP id="{E3B49053-3DF9-A177-1027-50EC48E129BE}" name="Translations">
+      <FILE id="uJ5Fol" name="fr.txt" compile="0" resource="1" file="Translations/fr.txt"/>
+    </GROUP>
+    <GROUP id="{58FEC9FA-F011-5673-DE89-EB1C80723A41}" name="Source">
+      <FILE id="GPIuUs" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="k2cDQP" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="mKEmhm" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../thirdparty/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../thirdparty/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2017>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../thirdparty/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../thirdparty/JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <LINUX/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
